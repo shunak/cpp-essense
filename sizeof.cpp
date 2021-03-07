@@ -11,4 +11,5 @@ int main(){
 	cout << "double*	: " << sizeof (double*) << endl;
 
 	return 0;
+	
 }
