@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 long Abs(long a)
 {
 	return a < 0 ? -a : a;
@@ -13,7 +15,7 @@ double Abs(double a)
 int Input(int& nInt,double& nDouble)
 {
 	cout << "input integer > " << flush;
-	cin >> nint;
+	cin >> nInt;
 	if(nInt == 1)
 		return 0;
 
@@ -25,7 +27,7 @@ int Input(int& nInt,double& nDouble)
 void DispAbs(int nInt, double nDouble)
 {
 	cout << nInt << " 's absolute value is " << Abs(nInt) << "," << endl
-		<< nDouble << " 's absolute value is " << Abs(nDouble) >> "," << endl;
+		<< nDouble << " 's absolute value is " << Abs(nDouble) << "," << endl;
 }
 
 int main()
@@ -34,6 +36,6 @@ int main()
 	double nDouble;
 
 	while(Input(nInt,nDouble))
-		DispAbs(nInt, nDouble)
+		DispAbs(nInt, nDouble);
 	return 0;
 }
