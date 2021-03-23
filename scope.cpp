@@ -16,6 +16,7 @@ int main(){
 	}
 
 	cout << a << ":" << &a << endl;
+	/* cout << ::a << ":" << &::a << endl; */ //point grobal
 
 	return 0;
 
