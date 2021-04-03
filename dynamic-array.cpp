@@ -43,7 +43,7 @@ int main()
 	StoreFibo(array, nSize);
 	DispFibo(array, nSize);
 
-	delete [] array;
+	delete [  ] array;
 
 	return 0;
 }
