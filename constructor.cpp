@@ -14,7 +14,7 @@ class CInt
 // Constructor
 CInt::CInt()
 {
-	m_num=0;
+	m_num=100;
 }
 
 
