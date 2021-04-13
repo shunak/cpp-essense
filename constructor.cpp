@@ -25,12 +25,13 @@ void CInt::Disp()
 
 int main()
 {
-	CInt a, b, c, d;
+	CInt a, b, c, d, e;
 
 	a.Disp();
 	b.Disp();
 	c.Disp();
 	d.Disp();
+	e.Disp();
 
 	return 0;
 
