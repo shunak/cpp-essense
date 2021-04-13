@@ -17,7 +17,6 @@ class SStudent
 };
 
 
-
 void SStudent::Disp()
 {
     cout << "name : " << szName << endl
