@@ -25,7 +25,8 @@ int main()
 	Viss(4);
 
 	return 0;
-
-
-
 }
+
+
+
+
