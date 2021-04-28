@@ -3,6 +3,8 @@
 #include <process.h>
 #include "intarray.h"
 
+using namespace std;
+
 // constructor
 CIntArray::CIntArray(const int nNumOf)
 {
