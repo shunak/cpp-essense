@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 #include <memory.h>
 #include <process.h>
 #include "intarray.h"
