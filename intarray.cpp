@@ -23,7 +23,44 @@ CIntArray::CIntArray(const int nNumOf)
 // Destructor
 CIntArray::~CIntArray()
 {
+	if(m_pnum != NULL)
+		delete [] m_pnum;
+
+	cout  << "Destructor is called. "
+		<< "Num of the elements is " << m_nNumOf << ", " << endl;
 }
+
+// Access function to member
+// Getter
+int CIntArray::Get(const int index)
+{
+	CheckIndex(index);
+	return m_pnum[index];
+}
+// Setter
+void CIntArray::Set(const int index, const int value)
+{
+	CheckIndex(index);
+	m_pnum[index]=value;
+}
+// Checker to index
+void CIntArray::CheckIndex(const int index)
+{
+	if((unsigned int)index < (unsigned int)m_nNumOf)
+		return;
+	cout << "Invalid index value!" << endl
+		<<"value: " << index << endl;
+	exit(1);
+}
+
+
+
+
+
+
+
+
+
 
 
 
