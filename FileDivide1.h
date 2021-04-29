@@ -8,7 +8,6 @@ class CTest
 {
 	public:
 		int a;
-
 		void Func();
 };
 
